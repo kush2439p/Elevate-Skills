@@ -1,0 +1,48 @@
+Create a console-based Java app using JDBC that connects to a MySQL/PostgreSQL database and performs CRUD operations.
+
+
+
+🗃️ Step 1: Set Up Your Database & Table
+✅ For MySQL:
+sql
+Copy
+Edit
+CREATE DATABASE testdb;
+
+USE testdb;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+
+JDBCApp/
+├── DBUtil.java
+├── User.java
+├── UserDAO.java
+├── Main.java
+└── lib/ [Put JDBC JAR here]
+
+
+
+🛠️ Step 3: Compile and Run in VS Code
+✅ Download the JDBC driver JAR:
+MySQL Connector JAR
+
+PostgreSQL JDBC Driver
+
+Place it in JDBCApp/lib/ and reference it while compiling.
+
+🔁 Compile and Run (Terminal)
+bash
+Copy
+Edit
+cd JDBCApp
+
+# Compile all files and include JDBC JAR
+javac -cp ".;lib/mysql-connector-j-8.3.0.jar" *.java
+
+# Run the app
+java -cp ".;lib/mysql-connector-j-8.3.0.jar" Main
+Use : instead of ; for classpath separator on Mac/Linux.
