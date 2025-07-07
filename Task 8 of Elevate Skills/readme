@@ -1,1 +1,51 @@
+# 🎯 Online Quiz App – Console-Based Java Project
+
+## 📌 Objective
+Create a simple **console-based quiz application** using **Java** to test a user's knowledge on general topics. The application will present questions with multiple-choice options, accept user input, and display the final score.
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 🛠️ Tools & Technologies
+- Java (JDK 8+)
+- Command Line / Terminal
+- Any text editor or IDE (VS Code, IntelliJ, Eclipse)
+
+---
+
+## ▶️ How to Run
+
+1. **Clone or download the project folder**.
+2. **Open a terminal** in the project directory.
+3. **Compile the files** using:
+   ```bash
+   javac *.java
+🎉 Welcome to the Online Quiz App 🎉
+
+Question 1:
+What is the capital of France?
+1. Berlin
+2. Madrid
+3. Paris
+4. Rome
+Your answer (1-4): 3
+✅ Correct!
+
+Question 2:
+Which language is used for Android development?
+1. Swift
+2. Kotlin
+3. JavaScript
+4. Ruby
+Your answer (1-4): 2
+✅ Correct!
+
+...
+
+Quiz finished!
+Your Score: 2 out of 3
 
